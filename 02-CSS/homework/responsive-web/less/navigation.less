@@ -1,1 +1,36 @@
 // Código de Nav acá
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    background-color: @nav-bg;
+    border-bottom: 1px solid @nav-border;
+
+    h1{
+        font-size: 3rem;
+        margin-bottom: 0.7em;
+    }
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+    font-size: 1.5rem;
+
+    @media @phone{
+        gap: 1.5em;
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    li{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

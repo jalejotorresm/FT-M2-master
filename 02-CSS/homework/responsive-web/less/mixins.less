@@ -1,1 +1,15 @@
 // Mixins acá
+
+.borderRadius(@borderRadius: 10px) {
+  border-radius: @borderRadius;
+}
+.btnRegister(@bgColor, @fontColor, @borderColor: none) {
+  cursor: pointer;
+  background-color: @bgColor;
+  color: @fontColor;
+  border-color: @bgColor;
+  padding: 0.75em 1em;
+  width: max-content;
+  font-size: 1.3rem;
+  .borderRadius(3px);
+}
