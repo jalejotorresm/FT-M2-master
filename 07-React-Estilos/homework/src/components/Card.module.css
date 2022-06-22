@@ -1,0 +1,39 @@
+.general{
+    font-family: var(--main-font);
+    color: var(--font-color);
+    border: 0.5px solid rgb(178, 178, 178);
+    margin: 7px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.button{
+    display: flex;
+    justify-content: right;
+    margin: 4px;
+}
+
+.closeButton{
+    color: white;
+    background-color: rgb(192, 9, 9);
+    border: none;
+    border-radius: 5px;
+    width: 8%;
+    height: 9%;
+}
+
+.city{
+    text-align: center;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp{
+    margin: 7px;
+    padding: 0 8px 0 8px;
+}

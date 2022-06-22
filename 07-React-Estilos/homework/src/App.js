@@ -8,7 +8,7 @@ import data, { Cairns } from './data.js';
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="FirstCard">
         <Card
           max={Cairns.main.temp_max}
           min={Cairns.main.temp_min}
@@ -24,7 +24,7 @@ function App() {
         />
       </div>
       <hr />
-      <div>
+      <div className="Search">
         <SearchBar
           onSearch={(ciudad) => alert(ciudad)}
         />
